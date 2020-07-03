@@ -1,0 +1,509 @@
+			
+			
+			
+			body{
+			margin-top            : 50px;
+			font-size             : 16px;
+			background            : url(../img/tile.jpg) top left repeat;
+			-webkit-font-smoothing: antialiased;
+			text-rendering        : optimizelegibility;
+			
+			}
+			h1,h2,h3,h4{
+			-webkit-font-smoothing:atialiased;
+			text-rendering        :optimizeLegibility;
+			font-weight           : bold;
+			}
+			h1{
+			font-size             : 3em;
+			}
+			h1,h2{
+			margin                : 0 0 40px;
+			}
+			h3{
+			margin                : 20px 0;
+			}
+			h4{
+			font-size             : 18px;
+			}
+			#hero{
+			background            : url(../img/hero-bg.jpg) 50% 0 repeat fixed;
+			min-height            : 500px;
+			padding               : 40px 0;
+			color                 : white;
+			-webkit-font-smoothing:atialiased;
+			text-rendering        :optimizeLegibility;
+			}
+			#hero .hero-text{
+			margin-top            :30px;
+			}
+			#price-timeline{
+			margin                : 30px 0 60px;
+			text-align            : center;
+			}
+			#price-timeline .price{
+			width                 : 30%;
+			display               : inline-block;
+			margin                : 0 2% 0 0;
+			background            : #3e4249;
+			padding               : 10px 20px 30px;
+			position              : relative;
+			vertical-align        : top;
+			}
+			#price-timeline .price.active{
+			background            : #dd5638;
+			}
+			#price-timeline .price span{
+			background            : #101010;
+			display               : block;
+			height                : 70px;
+			width                 : 70px;
+			text-align            : center;
+			line-height           : 70px;
+			position              : absolute;
+			border-radius         : 100%;
+			webkit-border-radius  : 100%;
+			bottom                : -35px;
+			left                  : 50%;
+			margin-left           : -35px;
+			}
+			#price-timeline .price h4 {
+			margin                : 0 0 10px;
+			}
+			#price-timeline .price h4 small{
+			color                 : white;
+			font-weight           : bold;
+			display               : block;
+			}
+			p.lead{
+			font-weight           : normal;
+			}
+			#hero article{
+			text-align            : center;
+			}
+			.btn{
+			font-weight           : bold;
+			}
+			.btn-danger{
+			background-color      :#dd5638; 
+			border-color          :#d95131 ;
+			}
+			.btn-danger           :hover{
+			background-color      :#d03a18 ;
+			}
+			#optin{
+			background            :#3e4249;
+			color                 : white;
+			padding               : 20px 0;
+			font-size             : 1.2em;
+			}
+			#optin p{
+			margin                : 7px 0 0 0;
+			}
+			.modal-content{
+			background            :url(../img/tile.jpg)top left repeat;
+			}
+			section{
+			padding               : 80px 0;
+			}
+			.section-header{
+			text-align            : center;
+			}
+			section h2{
+			margin                :20px 0 40px;
+			
+			}
+			section h3{
+			margin                : 30px 0 10px;
+			}
+			#who-benefits{
+			background            : white;
+			}
+			#course-features{
+			background-color      : #3e4249;
+			color                 : white;
+			text-align            : center;
+			}
+			li{
+				list-style: none;
+			}
+			/*CUSTOM ICON SPIRITE*/
+			
+			i.ci{
+			height                : 40px;
+			width                 : 40px;
+			background            : url('../img/icon-sprite.png') no-repeat;
+			display               : inline-block;
+			
+			}
+			.ci.ci-computer{
+			background-position   : 0 0;
+			}
+			.ci.ci-watch{
+			background-position   : -40px 0;
+			}
+			.ci.ci-caledar{
+			background-position   : -80px 0;
+			}
+			.ci.ci-people{
+			background-position   : -120px 0;
+			}
+			.ci.ci-man{
+			background-position   : -160px 0;
+			}
+			.ci.ci-device{
+			background-position   : -200px 0;
+			}
+			/* FORM */
+			label{
+				display: block;
+				font-weight: bold;
+			}
+			input[type="text"],input[type="url"],input[type="email"],input[type="password"],input[type="search"],
+			textarea{
+				color: #666;
+				border:solid 1px #ddd;
+				display: block;
+				border-radius: 5px;
+				width: 100%;
+				padding: 10px 10px;
+			}
+			#project-features,#video-features{
+			text-align            : center;
+			}
+			#video-features{
+			background         :url(../img/bg-video.jpg) no-repeat fixed;
+			background-position: 26% 12%;
+			background-size    : cover;
+			color              : white;
+			}
+			#instructor{
+			background-color   : white !important;
+			background         : url('../img/brad-elvis.png') no-repeat;
+			background-position: 90% -10px;
+			}
+			#instructor h2{
+			margin                : 0;
+			}
+			#instructor .num{
+			font-size             : 30px;
+			font-weight           : bold;
+			display               : table;
+			color                 : white;
+			height                : 140px;
+			width                 : 140px;
+			text-align            : center;
+			background            : #dd5638;
+			border-radius         : 100%;
+			-webkit-font-smoothing: antialiased;
+			text-rendering        : optimizelegibility;
+			}
+			#instructor .num .num-content{
+			display               : table-cell;
+			vertical-align        : middle;
+			line-height           : 30px;
+			}
+			#instructor .num span{
+			font-weight           : normal;
+			font-size             : 20px;
+			display               : block;
+			}
+			.badge.social{
+			border-radius   : 50px;
+			width           : 40px;
+			height          : 40px;
+			font-size       : 24px;
+			text-align      : center;
+			line-height     : 40px;
+			padding         : 0;
+			margin          : 0 5px 20px 0;
+			background-color: #ccc;
+			}
+			.badge.social.twitter:hover{
+			background-color      : #55acee;
+			}
+			.badge.social.facebook:hover{
+			background-color      : #3b5998;
+			}
+			.badge.social.gplus:hover{
+			background-color      : #db4b39;
+			}
+			#kudos{
+			text-align            : center;
+			}
+			.testimonial{
+			margin-bottom         : 60px;
+			}
+			.testimonial img{
+				border-radius: 50%;
+
+			}
+			blockquote{
+			border    : none;
+			text-align: left;
+			font-style: italic;
+			padding   : 0;
+			}
+			blockquote cite{
+			display   : block;
+			margin    : 15px 0 0 0;
+			color     : #777;
+			font-size : 15px;
+			}
+			blockquote:before{
+				display: none;
+			}
+			#signup{
+				text-align: center;
+				background:url(../img/hipster-stuff.jpg) center center repeat fixed;
+				background-size: cover;
+				color: white;
+				padding: 140px 0
+			}
+			#signup h2{
+				font-weight: normal;
+			}
+			#signup h2 strong{
+				border-bottom: solid 2px #dd6538;
+			}
+			#signup .btn{
+				font-size: 24px;
+			}
+			footer{
+				background:#3e4249;
+				color: white;
+				padding: 20px 0 10px;
+				font-size: 12px;
+			}
+				footer p{
+				margin: 0;
+				}
+				footer a:link,footer a:visited {
+				color: white;
+				}
+				footer a:hover{
+				color: #dd5638
+				}
+				footer .signup-link a{
+				color: #dd5638
+				}	
+				a,a:hover{
+					text-decoration: none;
+				}
+				.row + .row{
+					margin: 80px 0;
+				}
+				/* HOME */
+#primary{
+    padding: 40px 0;
+}
+.feature-image{
+    display: table;
+    width: 100%;
+    color: white;
+
+}
+.feature-image-default-alt{
+    background: url('../img/stuff-feature.jpg') no-repeat;
+    background-size: cover;
+}
+.feature-image h1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.widget{
+	padding: 20px;
+}
+.widget ul{
+	padding: 0;
+	margin: 0;
+}
+.widget ul li:hover{
+position: relative;
+left:2px;
+
+}
+.widget h4{
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	border-bottom: solid 1px #ddd;
+}
+
+#comments .comment-list footer{
+	background: none;
+	color: inherit;
+}
+#comment footer
+.post,.widget,#comments {
+    position: relative;;
+    border: solid 1px #ddd;
+    background: white;
+    margin: 0 0 40px;
+    border-radius: 5px;
+}
+.post header,.post .post-excerpt,.post .post-body,#comments{
+    padding: 20px;
+}
+.post header h1,.post header h3{
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+.post header h1{ font-size: 24px; }
+.post img{
+    height: auto;
+}
+.post-detail{
+    font-size: 12px;
+    width: 90%;
+}
+.post-detail i.fa{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.post-detail i.fa:first-child{
+    padding-left: 0px;
+}
+.post-comment-badge{
+position: absolute;
+    background: #79b044;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-radius: 50%;
+    top: 40px;
+    right: 20px;
+    display: table;
+}
+.post-comment-badge a{
+        color: white !important;
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20px;
+    text-align: center;
+}
+.post-comment-badge a i{
+       display: block;
+    font-size: 15px;
+    margin: 5px;
+}
+.blog .post a,.blog .widget a,.search.search-results a,.search.search-results .widget a{
+    color: #dd5638;
+    text-decoration: none;
+}	
+.blog .post a:hover{
+	color:#bc3517; 
+}
+
+/* COMMENT */
+#comments h3{
+	text-align: center;
+}
+#comments h4{
+	font-size: 1.3em;
+}
+#comments ol{
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+#comments ol li{
+	margin: 10px 0;
+	padding: 10px 20px;
+	background: rgba(0,0,0,0.02);
+	border:solid 1px rgba(0,0,0,0.02);
+	border-radius: 5px;
+}
+#comments ol li ol.children{
+padding: 0;
+font-size: 0.98em;
+}
+#leave-comment{
+	border-top:solid 1px #eee;
+	margin: 50px 0;
+	padding: 20px 0;
+}
+#leave-comment #submit{
+	    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    color: white;
+    background: #c3c3c3;
+}
+#leave-comment #submit:hover{
+	background:#bb4e34;
+}
+.resource{
+	    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+        
+}
+.resource:nth-child(3n){
+	margin-right:0;
+}
+.resource .btn{
+	    margin: 10px 0;
+	        font-size: 16px;
+}
+.resource h3 a{
+	color: #dd5638;
+}
+
+section.main-content{
+	padding: 40px 0px;
+}
+.btn {
+	margin: 10px 0;
+}
+
+
+				/* MEDIA QUERIES */
+				@media screen and (max-width: 991px){
+
+					#instructor .container{
+						background:rgba(255,255,255,0.8);
+						padding: 20px;
+					}
+				}
+				@media screen and (max-width: 768px){
+					.logo{
+						width: 50%;
+					}
+					#optin p{
+						margin: 0 0 10px;
+					}
+							.resource{
+	    width: 48%;
+ 
+    margin: 0 2% 40px 0;
+       
+}
+}
+								
+				@media screen and (max-width: 568px){
+				#instructor .num{
+				width: 80px;
+				height: 80px;
+				}
+				#instructor .num .num-content{
+				font-size: 20px;
+				line-height: 20px;
+				}
+				#instructor .num .num-content span{
+				font-size: 16px;
+				}
+				.resource{
+	    width: 100%;
+ 
+    margin: 0 0 40px 0;
+
+				}
+		
+				}
+
